@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personalized News Aggregator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My News Feed</h1>
+        <p>News tailored just for you</p>
+    </header>
+
+    <section class="preferences">
+        <h2>Select Your Interests</h2>
+        <form id="preferences-form">
+            <label><input type="checkbox" name="interest" value="Technology"> Technology</label>
+            <label><input type="checkbox" name="interest" value="Health"> Health</label>
+            <label><input type="checkbox" name="interest" value="Sports"> Sports</label>
+            <label><input type="checkbox" name="interest" value="Entertainment"> Entertainment</label>
+            <label><input type="checkbox" name="interest" value="Science"> Science</label>
+            <button type="submit">Update Feed</button>
+        </form>
+    </section>
+
+    <section class="news-feed" id="news-feed">
+        <h2>Latest News</h2>
+        <div class="news-item">
+            <h3>Sample Headline</h3>
+            <p>This is a sample news story. Your personalized feed will appear here.</p>
+        </div>
+    </section>
+</body>
+</html>
